@@ -1,7 +1,7 @@
 from contextlib import redirect_stdout
 import os
 
-def save_model_summery(model, history, train_acc=None, file_name='model-summary.txt'):
+def save_model_summary(model, history, train_acc=None, file_name='model-summary.txt'):
   SUMMARY_PATH = './summary'
   try:
     os.mkdir(SUMMARY_PATH)
